@@ -6,7 +6,7 @@ export default async (filePath) => {
     return await new Promise((resolve, reject) => {
         fs.readFile(filePath, "utf-8", (error, data) => {
         if (error) reject(error);
-        else resolve(data);
+        else resolve(data.split("\n"));
 
       });
     });
