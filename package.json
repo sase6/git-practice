@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sase6/git-practice/issues"
   },
-  "homepage": "https://github.com/sase6/git-practice#readme"
+  "homepage": "https://github.com/sase6/git-practice#readme",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
 }
